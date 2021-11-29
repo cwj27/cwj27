@@ -1,0 +1,54 @@
+
+#menubar {
+	background : olive;
+}
+#menubar ul { 
+	margin : 10;
+	padding : 100;
+	width : 800px; 
+}
+#menubar ul li {
+	display : inline-block; 
+	list-style-type : none; 
+	padding : 10px 30px; 
+}
+#menubar ul li a {
+	color : white; 
+  	text-decoration : none; 
+}
+
+
+#menubar ul li a:hover {
+ 	color : violet;  
+}
+
+.aside 
+    { position: absolute; 
+      right: 0; 
+      top: 500; 
+      display: flex;
+      width: 300px;
+      color: White;
+      text-align: center;
+      background: black;
+      height: 90%;
+      border-radius: 30px; }
+
+
+.intro_text
+{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.intro_text > h1,
+.intro_text > h2
+    {color:  red;
+     list-style: none;
+     text-decoration: none;}
+    
+.main_text0
+{ margin-left: 100px;
+  list-style: none;
+  text-decoration: none;
+}
