@@ -1,4 +1,4 @@
-const content = "Welcome! Our Class"
+const content = "Welcome! sunam elementary school 3grade 7th Class!"
 const text = document.querySelector(".text")
 let index = 0;
  
