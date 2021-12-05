@@ -1,3 +1,4 @@
+a { text-decoration:none }
 
 #menubar {
 	background : olive;
@@ -28,29 +29,59 @@
       top: 500; 
       display: flex;
       width: 300px;
-      color: White;
+      color: black;
       text-align: center;
-      background: black;
-      height: 90%;
-      border-radius: 30px; }
+      background: #6DD66D;
+      height: 86%;
+      border-radius: 30px;
+      text-decoration : none;  }
 
 
 .intro_text
 {
-    width: 100%;
+    width: 70%;
     margin: auto;
-    text-align: center;
+    margin-left: 400px;
 }
 
     
 .main_text0
-{ margin-left: 100px;
+{ margin-left: 0;
   list-style: none;
   text-decoration-line: none;
+  overflow:auto;
 }
 
 .text
 { margin-left: 200px;
   list-style: none;
   text-decoration-line: none;
+}
+
+.main
+{     position: absolute; 
+      right: 300; 
+      top: 500; 
+      display: flex;
+      color: black;
+      text-align: center;
+      background: #6DD66D;
+      height: 86%;
+
+}
+      
+
+
+.contact
+{
+    width: 70%;
+    margin: auto;
+    margin-left: 400px;
+}
+
+.about_intro
+{
+    width: 70%;
+    margin: auto;
+    margin-left: 300px;
 }
